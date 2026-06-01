@@ -1,7 +1,7 @@
 :root {
   --background-color: #181616;
   --link-hover: #E6C384;
-  --link-heading: #8a9a7b;
+  --link-heading: #E6C384;
 }
 * {
   padding: 0;
@@ -25,6 +25,7 @@ body {
   flex-direction: column;
   background-color: #181616;
   /* margin-top: 10%; */
+  border: 6px solid #E6C384;
   height: 420px;
   width: 750px;
   /* border-radius: 10px; */
@@ -60,7 +61,7 @@ section {
   margin-top: 2rem;
   margin-left: 2rem;
   /* padding-top: px; */
-  color: #E6C384;
+  color: #C4746E;
   font-size: 18px;
   font-weight: 100;
 }
