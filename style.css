@@ -23,14 +23,14 @@ body {
 .maincard {
   display: flex;
   flex-direction: column;
-  background-color: #282727;
+  background-color: #181616;
   /* margin-top: 10%; */
-  height: 450px;
+  height: 420px;
   width: 750px;
   /* border-radius: 10px; */
   /* overflow: visible; */
-  /* backdrop-filter: blur(7px); */
-  /* box-shadow: 0px 0px 5px rgb(0, 0, 0); */
+  backdrop-filter: blur(7px);
+  box-shadow: 0px 0px 30px rgb(200, 192, 147);
 }
 .content {
   display: flex;
@@ -100,7 +100,7 @@ form {
 form input {
   font-family: "Ioskeley Mono", monospace;
   border: none;
-  background-color: #282727;
+  background-color: #181616;
   color: #C5C9C5;
   font-size: 22px;
   font-weight: 100;
