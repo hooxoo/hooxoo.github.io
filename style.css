@@ -125,9 +125,9 @@ form input:focus {
   left: 125px;
   right: 0;
   width: 200px;
-  background: #3a3a37;
-  border: 4px solid #262624;
-  /* border-radius: 0 0 8px 8px; */
+  background: #262624;
+  border: 5px solid #c4a855;
+  border-radius: 10px;
   max-height: 280px;
   overflow-y: auto;
   z-index: 100;
