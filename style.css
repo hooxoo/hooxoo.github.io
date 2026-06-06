@@ -1,6 +1,6 @@
 :root {
   --background-color: #262624;
-  --link-hover: #a68bbf;
+  --link-hover: #7da47a;
   --link-heading: #c4a855;
 }
 * {
@@ -62,7 +62,7 @@ section {
   margin-top: 2rem;
   margin-left: 2rem;
   /* padding-top: px; */
-  color: #a68bbf;
+  color: #7da47a;
   font-size: 18px;
   font-weight: 100;
 }
@@ -143,5 +143,5 @@ form input:focus {
 .autocomplete-item:hover,
 .autocomplete-item.selected {
   /* background: #11111b; */
-  color: #a68bbf;
+  color: #7da47a;
 }
