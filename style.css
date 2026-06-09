@@ -15,7 +15,7 @@ html {
 }
 body {
   background-color: #262624;
-  font-family: "JetBrainsMono NFP", monospace;
+  font-family: "Ioskeley Mono", monospace;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -100,7 +100,7 @@ form {
 }
 
 form input {
-  font-family: "JetBrainsMono NFP", monospace;
+  font-family: "Ioskeley Mono", monospace;
   border: none;
   background-color: #262624;
   color: #e8e4dc;
