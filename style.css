@@ -28,7 +28,7 @@ body {
   border: 6px solid #c4a855;
   height: 420px;
   width: 750px;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   /* overflow: visible; */
   backdrop-filter: blur(7px);
   box-shadow: 0px 0px 30px rgb(196, 168, 85);
@@ -46,7 +46,7 @@ img {
   object-fit: cover;
   margin-top: 2rem;
   margin-left: 2.5rem;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   /* padding: 15px 0 0 15px; */
 }
 section {
@@ -127,7 +127,7 @@ form input:focus {
   width: 200px;
   background: #262624;
   border: 5px solid #c4a855;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   max-height: 280px;
   overflow-y: auto;
   z-index: 100;
