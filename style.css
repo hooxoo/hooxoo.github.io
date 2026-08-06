@@ -30,8 +30,8 @@ body {
   width: 750px;
   /* border-radius: 10px; */
   /* overflow: visible; */
-  backdrop-filter: blur(7px);
-  box-shadow: 0px 0px 30px rgb(196, 168, 85);
+  /* backdrop-filter: blur(7px); */
+  /* box-shadow: 0px 0px 30px rgb(196, 168, 85); */
 }
 .content {
   display: flex;
