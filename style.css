@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght,MONO@0,300..800,1;1,300..800,1&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght,MONO@0,300..800,1;1,300..800,1&display=swap'); */
 
 :root {
   --background-color: #262624;
@@ -17,9 +17,9 @@ html {
 }
 body {
   background-color: #262624;
-  /* font-family: "Ioskeley Mono", monospace; */
-  font-family: "Google Sans Code", monospace;
-  font-style: normal;
+  font-family: "Ioskeley Mono", monospace;
+  /* font-family: "Google Sans Code", monospace; */
+  /* font-style: normal; */
   font-weight: 500;
   display: flex;
   align-items: center;
@@ -105,9 +105,9 @@ form {
 }
 
 form input {
-  /* font-family: "Ioskeley Mono", monospace; */
-  font-family: "Google Sans Code", monospace;
-  font-style: normal;
+  font-family: "Ioskeley Mono", monospace;
+  /* font-family: "Google Sans Code", monospace; */
+  /* font-style: normal; */
   font-weight: 500;
   border: none;
   background-color: #262624;
