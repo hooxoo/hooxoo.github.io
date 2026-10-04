@@ -17,10 +17,10 @@ html {
 }
 body {
   background-color: #262624;
-  font-family: "Ioskeley Mono", monospace;
-  /* font-family: "Google Sans Code", monospace; */
-  /* font-style: normal; */
-  font-weight: 500;
+  /* font-family: "Ioskeley Mono", monospace; */
+  font-family: "Google Sans Code", monospace;
+  font-style: normal;
+  font-weight: 400;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -69,7 +69,7 @@ section {
   /* padding-top: px; */
   color: #d97757;
   font-size: 18px;
-  font-weight: 100;
+  font-weight: 400;
 }
 .links ul {
   display: flex;
@@ -101,19 +101,19 @@ form {
   border: none;
   color: var(--link-heading);
   font-size: 22px;
-  font-weight: 100;
+  font-weight: 400;
 }
 
 form input {
-  font-family: "Ioskeley Mono", monospace;
-  /* font-family: "Google Sans Code", monospace; */
-  /* font-style: normal; */
-  font-weight: 500;
+  /* font-family: "Ioskeley Mono", monospace; */
+  font-family: "Google Sans Code", monospace;
+  font-style: normal;
+  font-weight: 400;
   border: none;
   background-color: #262624;
   color: #e8e4dc;
   font-size: 22px;
-  font-weight: 100;
+  font-weight: 400;
 }
 form input:focus {
   outline: none;
