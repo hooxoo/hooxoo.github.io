@@ -17,9 +17,9 @@ html {
 }
 body {
   background-color: #262624;
-  /* font-family: "Ioskeley Mono", monospace; */
-  font-family: "Google Sans Code", monospace;
-  font-style: normal;
+  font-family: "Ioskeley Mono", monospace;
+  /* font-family: "Google Sans Code", monospace; */
+  /* font-style: normal; */
   font-weight: 400;
   display: flex;
   align-items: center;
@@ -69,7 +69,7 @@ section {
   /* padding-top: px; */
   color: #d97757;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 600;
 }
 .links ul {
   display: flex;
@@ -105,15 +105,14 @@ form {
 }
 
 form input {
-  /* font-family: "Ioskeley Mono", monospace; */
-  font-family: "Google Sans Code", monospace;
-  font-style: normal;
+  font-family: "Ioskeley Mono", monospace;
+  /* font-family: "Google Sans Code", monospace; */
+  /* font-style: normal; */
   font-weight: 400;
   border: none;
   background-color: #262624;
   color: #e8e4dc;
   font-size: 22px;
-  font-weight: 400;
 }
 form input:focus {
   outline: none;
