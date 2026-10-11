@@ -1,9 +1,9 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght,MONO@0,300..800,1;1,300..800,1&display=swap'); */
 
 :root {
-  --background-color: #262624;
-  --link-hover: #d97757;
-  --link-heading: #c4a855;
+  --background-color: #171311;
+  --link-hover: #f4a21c;
+  --link-heading: #ea9875;
 }
 * {
   padding: 0;
@@ -16,10 +16,8 @@ html {
   justify-content: center;
 }
 body {
-  background-color: #262624;
+  background-color: #171311;
   font-family: "Ioskeley Mono", monospace;
-  /* font-family: "Google Sans Code", monospace; */
-  /* font-style: normal; */
   font-weight: 400;
   display: flex;
   align-items: center;
@@ -28,9 +26,8 @@ body {
 .maincard {
   display: flex;
   flex-direction: column;
-  background-color: #262624;
-  /* margin-top: 10%; */
-  border: 4px solid #c4a855;
+  background-color: #171311;
+  border: 4px solid #2f1e17;
   height: 420px;
   width: 750px;
   /* border-radius: 10px; */
@@ -66,8 +63,7 @@ section {
   width: 340px;
   margin-top: 2rem;
   margin-left: 2rem;
-  /* padding-top: px; */
-  color: #d97757;
+  color: #f4a21c;
   font-size: 18px;
   font-weight: 100;
 }
@@ -92,7 +88,7 @@ a:hover {
 a {
   padding: 0px;
   text-decoration: none;
-  color: rgba(232, 228, 220, 1);
+  color: rgba(230, 213, 194, 1);
 }
 form {
   font-size: 1rem;
@@ -106,12 +102,10 @@ form {
 
 form input {
   font-family: "Ioskeley Mono", monospace;
-  /* font-family: "Google Sans Code", monospace; */
-  /* font-style: normal; */
   font-weight: 400;
   border: none;
-  background-color: #262624;
-  color: #e8e4dc;
+  background-color: #171311;
+  color: #e6d5c2;
   font-size: 22px;
 }
 form input:focus {
@@ -132,8 +126,8 @@ form input:focus {
   left: 125px;
   right: 0;
   width: 200px;
-  background: #262624;
-  border: 5px solid #c4a855;
+  background: #171311;
+  border: 4px solid #ea9875;
   /* border-radius: 10px; */
   max-height: 280px;
   overflow-y: auto;
@@ -142,7 +136,7 @@ form input:focus {
 
 .autocomplete-item {
   padding: 6px 16px;
-  color: #e8e4dc;
+  color: #e6d5c2;
   cursor: pointer;
   font-size: 18px;
 }
@@ -150,5 +144,5 @@ form input:focus {
 .autocomplete-item:hover,
 .autocomplete-item.selected {
   /* background: #11111b; */
-  color: #d97757;
+  color: #ea9875;
 }
