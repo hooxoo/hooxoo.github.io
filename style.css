@@ -1,9 +1,9 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght,MONO@0,300..800,1;1,300..800,1&display=swap'); */
 
 :root {
-  --background-color: #141415;
-  --link-hover: #8292c7;
-  --link-heading: #d68abc;
+  --background-color: #1c2120;
+  --link-hover: #9eadaa;
+  --link-heading: #9eadaa;
 }
 * {
   padding: 0;
@@ -16,7 +16,7 @@ html {
   justify-content: center;
 }
 body {
-  background-color: #141415;
+  background-color: #1c2120;
   font-family: "Ioskeley Mono", monospace;
   /* font-family: "Google Sans Code", monospace; */
   /* font-style: normal; */
@@ -28,9 +28,9 @@ body {
 .maincard {
   display: flex;
   flex-direction: column;
-  background-color: #141415;
+  background-color: #1c2120;
   /* margin-top: 10%; */
-  border: 5px solid #8292c7;
+  border: 5px solid #9eadaa;
   height: 420px;
   width: 750px;
   /* border-radius: 10px; */
@@ -67,7 +67,7 @@ section {
   margin-top: 2rem;
   margin-left: 2rem;
   /* padding-top: px; */
-  color: #b4b1ba;
+  color: #626c6a;
   font-size: 18px;
   font-weight: 100;
 }
@@ -110,8 +110,8 @@ form input {
   /* font-style: normal; */
   font-weight: 400;
   border: none;
-  background-color: #141415;
-  color: #b4b1ba;
+  background-color: #1c2120;
+  color: #626c6a;
   font-size: 22px;
 }
 form input:focus {
@@ -132,8 +132,8 @@ form input:focus {
   left: 125px;
   right: 0;
   width: 200px;
-  background: #141415;
-  border: 4px solid #8292c7;
+  background: #1c2120;
+  border: 4px solid #9eadaa;
   /* border-radius: 10px; */
   max-height: 280px;
   overflow-y: auto;
@@ -142,7 +142,7 @@ form input:focus {
 
 .autocomplete-item {
   padding: 6px 16px;
-  color: #b4b1ba;
+  color: #626c6a;
   cursor: pointer;
   font-size: 18px;
 }
@@ -150,5 +150,5 @@ form input:focus {
 .autocomplete-item:hover,
 .autocomplete-item.selected {
   /* background: #11111b; */
-  color: #d68abc;
+  color: #9eadaa;
 }
